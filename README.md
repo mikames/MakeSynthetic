@@ -1,5 +1,5 @@
 # MakeSynthetic
-------
+
 ## Setup
 
 1. create a python virtual environment 
@@ -15,7 +15,7 @@ python3 -m venv env_synth
 ```python
 pip3 install -r requirements.txt
 ```
-5. run the sample make_synthitic.py 
+5. run the sample make_synthetic.py 
 
 ```python
 python3 make_synthetic.py config_example_110k.json                
