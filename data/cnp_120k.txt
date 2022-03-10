@@ -1,0 +1,41 @@
+--- dataset summary --- 
+output_file          = spotify_cnp_120k.csv
+n_samples            = 120000
+n_features           = 11
+pct_missing          = 0.00%
+
+--- model features --- 
+numeric_features     = ['count_card_to_wallet', 'time_since_last_add', 'time_since_last_txn']
+categorical_features = ['ip_address', 'email_address', 'phone_number', 'billing_city', 'billing_postal', 'billing_state', 'card_bin', 'currency']
+
+--- dataset performance ---
+Train AUC Score        : 0.992493
+Eval  AUC Score        : 0.982325
+Test  AUC Score        : 0.991695
+
+--- score thresholds ---
+THR 	 FPR 	 TPR	 
+0.44	 0.01	 0.86
+0.20	 0.02	 0.93
+0.12	 0.03	 0.94
+0.09	 0.04	 0.95
+0.07	 0.05	 0.96
+0.05	 0.06	 0.96
+0.04	 0.07	 0.97
+0.04	 0.08	 0.97
+0.03	 0.09	 0.98
+0.03	 0.10	 0.98
+
+--- feature importance  ---
+time_since_last_add           	 0.8086
+time_since_last_txn           	 0.7676
+billing_postal                	 0.7660
+email_address                 	 0.4089
+count_card_to_wallet          	 0.3229
+phone_number                  	 0.2783
+card_bin                      	 0.2770
+billing_state                 	 0.2482
+currency                      	 0.2293
+billing_city                  	 0.1264
+ip_address                    	 0.0521
+
